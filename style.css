@@ -1,0 +1,86 @@
+h1{
+    text-align: center;
+    background-color: rgb(175, 203, 227);
+    margin: 20px 0;
+}
+.game-board{
+    width: 520px;
+    height: 520px;
+    margin: 0 360px;
+    background-color: rgb(123, 91, 125);
+    border:2px solid rgb(27, 24, 25)
+}
+.element{
+    width: 75px;
+    height: 75px;
+    top:80px; 
+    left: 375px;
+    position:absolute;
+    margin: 10px;
+    display: inline-block;
+    background-color: rgb(144, 21, 231);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 75px;
+    cursor: pointer;
+    user-select: none;
+
+
+
+
+}
+.element:hover{
+    background-color: rgb(75, 27, 71);
+}
+.element.hidden{
+    color: transparent;
+    
+}
+#timer{
+    font-size:24px;
+    text-align: center;
+    margin: 20px 0;
+}
+button{
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: rgb(144, 21, 231);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(75, 27, 71);
+    border: 2px solid rgb(27, 24, 25);
+    border-radius: 5px;
+}
+.score{
+    position: absolute;
+    top: 100px;
+    left:1200px;;
+    font-size: 24px;
+
+
+}
+
+.level-buttons{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+.play{
+    display:none;
+}
+.level-buttons {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+}
