@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Гра - Пам'ять</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Виберіть рівень</h1>
+  <main class="level-buttons">
+    <button class="level-button" id="easy">Легкий</button>
+    <button class="level-button" id="medium">Середній</button>
+    <button class="level-button" id="hard">Важкий</button>
+  </main>
+    
+  
+  <main class="game-board" id="gameBoard"></main>
+ <main class = 'score'> Рахунок : </main>
+
+    <audio id="bgMusic" src="fight-for-the-future-336841.mp3" loop></audio>
+    <main id = 'timer'>7:00</main>
+
+<button class = 'play' onclick="playMusic()">Грати</button>
+  <script src="script.js"></script>
+</body>
+</html>
